@@ -1,0 +1,5 @@
+xterm*scrollBar: true
+xterm*scrollbar.width: 13
+xterm*scrollbar.foreground: #989898
+xterm*scrollbar.background: #FFFFFF
+xterm*font: -*-courier-medium-r-*-*-12-*-*-*-*-*-*-*
