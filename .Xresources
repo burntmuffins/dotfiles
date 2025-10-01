@@ -5,3 +5,4 @@ xterm*scrollbar.width: 13
 xterm*scrollbar.foreground: #989898
 xterm*scrollbar.background: #FFFFFF
 xterm*font: -*-courier-medium-r-*-*-12-*-*-*-*-*-*-*
+xterm*geometry: 70x26
