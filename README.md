@@ -1,6 +1,6 @@
 # My plan9-like rice for CTWM
 ( keep in mind that this is WIP )
-<img width="1280" height="800" alt="2025-09-30-215205_1280x800_scrot" src="https://github.com/user-attachments/assets/9cfb6dd7-1dcb-45a6-9972-cd62cf0fd9b8" />
+<img width="1280" height="800" alt="2025-10-01-155613_1280x800_scrot" src="https://github.com/user-attachments/assets/5332f3ed-e3bb-4d09-8292-fb7610129110" />
 <br>
 ## The cursor theme:
 https://xn--1xa.duncano.de/files/xcursor-plan9-0.2.tar.xz <br>
