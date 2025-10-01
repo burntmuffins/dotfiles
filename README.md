@@ -1,6 +1,6 @@
 # My rio-like rice for CTWM
-( keep in mind that this is WIP )
-<img width="1280" height="800" alt="2025-10-01-155613_1280x800_scrot" src="https://github.com/user-attachments/assets/5332f3ed-e3bb-4d09-8292-fb7610129110" />
+( keep in mind that this is WIP and very unstable ( unstable as in updates a lot ) )
+<img width="1280" height="800" alt="2025-10-01-192741_1280x800_scrot" src="https://github.com/user-attachments/assets/c5ef037e-4e24-4fe2-8fc0-e41bf8878207" />
 <br>
 ## The cursor theme:
 https://xn--1xa.duncano.de/files/xcursor-plan9-0.2.tar.xz <br>
