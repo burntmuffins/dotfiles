@@ -1,7 +1,6 @@
+# le fishe au chocolat
 TitleFont	"-adobe-helvetica-bold-r-normal--*-120-*-*-*-*-*-*"
 ResizeFont	"-*-courier-medium-r-*-*-12-*-*-*-*-*-*-*"
-#MenuFont	"-*-courier-bold-r-*-*-10-*-*-*-*-*-*-*"
-#MenuFont	"-adobe-helvetica-bold-r-normal--*-70-*-*-*-*-*-*"
 MenuFont	"-*-fixed-*-r-*-*-14-120-*-*-*-*-iso8859-1"
 IconFont	"-*-courier-medium-r-*-*-12-*-*-*-*-*-*-*"
 IconManagerFont	"-*-courier-medium-r-*-*-12-*-*-*-*-*-*-*"
@@ -14,7 +13,7 @@ BorderWidth 4
 BorderResizeCursors
 NoMenuShadows
 DontWarpCursorInWMap
-#RandomPlacement "off"
+RandomPlacement "off"
 
 WorkSpaceManagerGeometry        "150x15+0+0" 4
 WorkSpaces {
@@ -34,8 +33,8 @@ Color
     BorderTileForeground  "#9FEFEF"
     #TitleBackground       "DeepSkyBlue1"
     #TitleForeground       "Black"
-    MenuBackground        "White"
-    MenuForeground        "DarkGreen"
+    MenuBackground        "#EEFFEF"
+    MenuForeground        "#509150"
     MenuTitleBackground   "LightCyan"
     MenuTitleForeground   "Black"
     IconBackground        "#FFEAEA"
@@ -107,8 +106,8 @@ menu "defops"
 	"New"		!"xterm &"
 	"Resize"	f.resize
 	"Move"		f.move
-	"Max"		f.fullzoom
 	"Delete"	f.delete
+	"Max"		f.fullzoom
 }
 
 menu "apps"
