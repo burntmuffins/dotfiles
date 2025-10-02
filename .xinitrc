@@ -9,5 +9,8 @@ xsetroot -cursor_name left_ptr
 xclock &
 xload &
 
+# Start acme
+#9 acme &
+
 # Now start CTWM
 exec ctwm -W

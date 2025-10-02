@@ -6,5 +6,12 @@ export PS1="; "
 
 # some aliases
 alias fetch="neofetch"
+# makes my life easier when taking screenshots
+alias sniff="cd ~/Pictures ; sleep 1 ; scrot -p -d 2 ; cd - > /dev/null"
 ## the alias below should keep startx quiet
 alias startx="startx -- -keeptty >~/.xorg.log 2>&1"
+
+# surprise surprise i don't want colors in ls and other shortcuts
+unalias ls
+unalias ll
+unalias l

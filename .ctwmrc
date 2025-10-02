@@ -13,49 +13,49 @@ BorderWidth 4
 BorderResizeCursors
 NoMenuShadows
 DontWarpCursorInWMap
-RandomPlacement "off"
+RandomPlacement "on"
 
 WorkSpaceManagerGeometry        "150x15+0+0" 4
 WorkSpaces {
-    "One"   {"#686B9F" "white" "#777777"}
-    "Two"   {"#619AAE" "white" "#777777"}
-    "Three" {"#727786" "white" "#777777"}
-    "Four"  {"#8C5b7A" "white" "#777777"}
+    "One"   {"white" "white" "#777777" "white"}
+    "Two"   {"white" "white" "#777777" "white"}
+    "Three" {"white" "white" "#777777" "white"}
+    "Four"  {"white" "white" "#777777" "white"}
 }
 
 # commented out is colors that isn't used/showed in ctwm with my config
 Color
 {
-    BorderColor           "#57A8A8"
-    DefaultBackground     "White"
-    DefaultForeground     "Black"
-    BorderTileBackground  "#9FEFEF"
-    BorderTileForeground  "#9FEFEF"
-    #TitleBackground       "DeepSkyBlue1"
-    #TitleForeground       "Black"
-    MenuBackground        "#EEFFEF"
-    MenuForeground        "#509150"
-    MenuTitleBackground   "LightCyan"
-    MenuTitleForeground   "Black"
-    IconBackground        "#FFEAEA"
-    IconForeground        "Black"
-    IconBorderColor       "#FFAAAA"
-    #IconManagerBackground "White"
-    #IconManagerForeground "Black"
-    MapWindowBackground   "#FFEAEA"
-    MapWindowForeground   "Black"
+    BorderColor			"#57A8A8"
+    DefaultBackground		"White"
+    DefaultForeground		"Black"
+    BorderTileBackground	"#9FEFEF"
+    BorderTileForeground	"#9FEFEF"
+    #TitleBackground		"DeepSkyBlue1"
+    #TitleForeground		"Black"
+    MenuBackground		"#EEFFEF"
+    MenuForeground		"#509150"
+    #MenuTitleBackground		"LightCyan"
+    #MenuTitleForeground		"Black"
+    IconBackground		"#FFEAEA"
+    IconForeground		"Black"
+    IconBorderColor		"#FFAAAA"
+    #IconManagerBackground	"White"
+    #IconManagerForeground	"Black"
+    MapWindowBackground		"#FFEAEA"
+    MapWindowForeground		"Black"
 }
 
 IconManagerGeometry		"160x300-0+0" 1
 IconManagerDontShow {
-    "WorkSpaceManager"
+	"WorkSpaceManager"
 }
 
 NoTitle {                  # little programs that look like icons
-#    "TWM Icon Manager"
-    "WorkSpaceManager"
-    "xload"
-    "xclock"
+#	"TWM Icon Manager"
+	"WorkSpaceManager"
+	"xload"
+	"xclock"
 }
 
 OccupyAll {
@@ -65,6 +65,8 @@ OccupyAll {
 
 NoHighlight {
 	"WorkSpaceManager"
+	"xclock"
+	"xload"
 }
 
 
