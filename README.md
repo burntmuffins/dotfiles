@@ -20,5 +20,5 @@ https://github.com/wintermute-cell/xcursor-plan9
 `Alt` `Right click` AND drag  =  resize the current window <br>
 
 ## Notes
-~~The fonts **might** look different on your system because my fonts are very borked.~~ <br>
+- ~~The fonts **might** look different on your system because my fonts are very borked.~~ <br>
 - You must disable fonts antialiasing and maybe enable full hints in your fontconfig config to get the fonts to look like mine.
