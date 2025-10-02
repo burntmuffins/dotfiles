@@ -1,8 +1,28 @@
-Xcursor.size: 24
-Xcursor.theme: plan9
+! XTerm
 xterm*scrollBar: true
 xterm*scrollbar.width: 13
 xterm*scrollbar.foreground: #989898
 xterm*scrollbar.background: #FFFFFF
+XTerm*faceName: DejaVu Sans Mono:bold
+XTerm*faceSize: 11
 xterm*font: -*-courier-medium-r-*-*-12-*-*-*-*-*-*-*
-xterm*geometry: 70x26
+xterm*geometry: 73x32
+
+! XClock
+XClock*face: DejaVu Sans:bold:pixelsize=13
+XClock*analog: false
+XClock*padding: 4
+XClock*background: lightcyan
+XClock*geometry: 200x65+155+0
+XClock*strftime: %a %b %d %I:%H
+
+! XLoad
+XLoad*background: #FFEDED
+XLoad*foreground: #FFA8A8
+XLoad*label: load
+XLoad*update: 3
+XLoad*geometry: 148x45+0+20
+
+! Cursor theme
+Xcursor.theme: plan9
+Xcursor.size: 24
