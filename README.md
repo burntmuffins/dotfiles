@@ -2,12 +2,12 @@
 ( keep in mind that this is WIP and very unstable ( unstable as in updates a lot ) )
 <img width="1280" height="800" alt="2025-10-02-181338_1280x800_scrot" src="https://github.com/user-attachments/assets/2974bbe9-cc6c-46e5-8aec-1ae384f8d180" />
 <br>
-## The cursor theme:
+## Cursor theme
 https://xn--1xa.duncano.de/files/xcursor-plan9-0.2.tar.xz <br>
 OR <br>
 https://github.com/wintermute-cell/xcursor-plan9
 
-## My keybinds
+## Keybinds
 ### Keyboard
 `Alt` `Shift` `R`    =  restart ctwm <br>
 `Alt` `Shift` `Q`    =  quit ctwm <br>
