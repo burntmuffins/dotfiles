@@ -9,7 +9,7 @@ xterm*font: -*-courier-medium-r-*-*-12-*-*-*-*-*-*-*
 xterm*geometry: 73x32
 
 ! XClock
-XClock*face: DejaVu Sans:bold:pixelsize=13
+XClock*face: DejaVu Sans:bold:pixelsize=12
 XClock*analog: false
 XClock*padding: 4
 XClock*background: lightcyan
