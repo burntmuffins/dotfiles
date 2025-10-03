@@ -1,0 +1,8 @@
+# Put your aliases here
+
+alias fetch="neofetch"
+# makes my life easier when taking screenshots
+alias sniff="cd ~/Pictures ; sleep 1 ; scrot -p -d 2 ; cd - > /dev/null ; aplay ~/Fun/camera.wav"
+## the alias below should keep startx quiet
+alias startx="startx -- -keeptty >~/.xorg.log 2>&1"
+

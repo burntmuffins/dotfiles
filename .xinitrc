@@ -6,11 +6,8 @@ xrdb -merge ~/.Xresources
 xsetroot -cursor_name left_ptr
 
 # Start the "widgets"
-xclock &
+xclock -strftime "  %a %b %e %I:%H" &
 xload &
-
-# Start acme
-#9 acme &
 
 # Now start CTWM
 exec ctwm -W

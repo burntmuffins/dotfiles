@@ -1,17 +1,44 @@
-# set a fancy and colorful prompt
-#export PS1="\[\e[1;31m\][\[\e[m\]\[\e[1;33m\]\u\[\e[m\]\[\e[1;32m\]@\[\e[m\]\[\e[1;34m\]\h\[\e[m\] \[\e[1;35m\]\W\[\e[m\]\[\e[1;31m\]]\[\e[m\]\\$ "
+# If not running interactively, don't do anything
+case $- in
+    *i*) ;;
+      *) return;;
+esac
+
+# don't put duplicate lines or lines starting with space in the history.
+# See bash(1) for more options
+HISTCONTROL=ignoreboth
+
+# append to the history file, don't overwrite it
+shopt -s histappend
+
+# for setting history length see HISTSIZE and HISTFILESIZE in bash(1)
+HISTSIZE=1000
+HISTFILESIZE=2000
+
+# check the window size after each command and, if necessary,
+# update the values of LINES and COLUMNS.
+shopt -s checkwinsize
+
+# It is recommended that you put your aliases in
+# ~/.aliases instead of here
+if [ -f ~/.aliases ]; then
+    . ~/.aliases
+fi
+
+# enable programmable completion features (you don't need to enable
+# this, if it's already enabled in /etc/bash.bashrc and /etc/profile
+# sources /etc/bash.bashrc).
+if ! shopt -oq posix; then
+  if [ -f /usr/share/bash-completion/bash_completion ]; then
+    . /usr/share/bash-completion/bash_completion
+  elif [ -f /etc/bash_completion ]; then
+    . /etc/bash_completion
+  fi
+fi
 
 # set a minimal looking prompt
 export PS1="; "
 
-# some aliases
-alias fetch="neofetch"
-# makes my life easier when taking screenshots
-alias sniff="cd ~/Pictures ; sleep 1 ; scrot -p -d 2 ; cd - > /dev/null"
-## the alias below should keep startx quiet
-alias startx="startx -- -keeptty >~/.xorg.log 2>&1"
-
-# surprise surprise i don't want colors in ls and other shortcuts
-unalias ls
-unalias ll
-unalias l
+# add plan9port programs to our path
+PLAN9=/usr/local/plan9 export PLAN9
+PATH=$PATH:$PLAN9/bin export PATH

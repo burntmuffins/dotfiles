@@ -1,7 +1,8 @@
 # le fishe au chocolat
 TitleFont	"-adobe-helvetica-bold-r-normal--*-120-*-*-*-*-*-*"
 ResizeFont	"-*-courier-medium-r-*-*-12-*-*-*-*-*-*-*"
-MenuFont	"-*-fixed-*-r-*-*-14-120-*-*-*-*-iso8859-1"
+#MenuFont	"-*-fixed-*-r-*-*-14-120-*-*-*-*-iso8859-1"
+MenuFont	"-*-lucidatypewriter-bold-*-*-sans-12-0-*-*-*-*-iso8859-1"
 IconFont	"-*-courier-medium-r-*-*-12-*-*-*-*-*-*-*"
 IconManagerFont	"-*-courier-medium-r-*-*-12-*-*-*-*-*-*-*"
 ShowWorkSpaceManager			# start with workspace manager up
@@ -115,11 +116,12 @@ menu "defops"
 menu "apps"
 {
 	"Pin"		f.pin
+	"Acme"		!"9 acme &"
 	"Firefox"	!"firefox &"
 	"Htop"		!"xterm -e htop &"
 	"Prism"		!"prismlauncher &"
-	"Powder"	!"powder &"
-	"Vesktop"	!"vesktop &"
+#	"Powder"	!"powder &"
+#	"Vesktop"	!"vesktop &"
 }
 
 menu "windowops" {
