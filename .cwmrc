@@ -18,7 +18,7 @@ sticky yes
 command xterm		xterm
 command htop		"xterm -e htop"
 command firefox		firefox 
-command "prism"		prismlauncher
+command supertuxkart	supertuxkart
 
 # colors
 color activeborder	"#52a5a5"
