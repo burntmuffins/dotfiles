@@ -1,25 +1,6 @@
-# My rio-like rice for CTWM
-( keep in mind that this is WIP and very unstable ( unstable as in updates a lot ) )
-<img width="1280" height="800" alt="2025-10-03-220201_1280x800_scrot" src="https://github.com/user-attachments/assets/3e969d97-d275-470a-9016-4a20dd7a050f" />
-<br>
-## Cursor theme
-https://xn--1xa.duncano.de/files/xcursor-plan9-0.2.tar.xz <br>
-OR <br>
-https://github.com/wintermute-cell/xcursor-plan9
+# My rice for CWM based on plan9's rio
+<img width="1280" height="800" alt="2026-02-02-092242_1280x800_scrot" src="https://github.com/user-attachments/assets/5f446b95-2e6f-4cfa-a585-50cc12731889" />
 
-## Keybinds
-### Keyboard
-`Alt` `Shift` `R`    =  restart ctwm <br>
-`Alt` `Shift` `Q`    =  quit ctwm <br>
-`Alt` `Shift` `C`    =  close the current window
-
-### Mouse
-`Alt` `Left click`   =  move the current window <br>
-`Alt` `Middle click` =  iconify/minimize the current window <br>
-`Alt` `Right click`  =  raise the current window <br>
-`Alt` `Right click` AND drag  =  resize the current window <br>
-
-## Notes
-Strikethrough = no longer relevant <br>
-- ~~The fonts **might** look different on your system because my fonts are very borked.~~ <br>
-- ~~You must disable fonts antialiasing and maybe enable full hints in your fontconfig config to get the fonts to look like mine.~~
+## Stuff used
+- cursor theme -- https://xn--1xa.duncano.de/files/xcursor-plan9-0.2.tar.xz <br>
+- xterm font -- https://sciops.net/downloads/vga/ , specifically the bdf format one
