@@ -1,0 +1,7 @@
+# make our shell look minimalistic
+export PS1='; '
+
+# aliases
+alias fetch="fastfetch --pipe"
+alias sniff="cd ~/Pictures ; scrot -p -d 2 ; cd - > /dev/null ; echo 'done!'"
+alias startx="startx -- -keeptty >~/.xorg.log 2>&1"

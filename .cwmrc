@@ -1,0 +1,28 @@
+##
+##    (\(\	welcome to my
+##   j". ..	.cwmrc!
+##   (  . .)
+##   |   ° ¡
+##   ¿     ;
+##   c?".UJ
+##
+
+# the font
+fontname "sans-serif:pixelsize=14:bold"
+
+# windows' stuffs
+borderwidth 4
+sticky yes
+
+# menu applications
+command xterm		xterm
+command htop		"xterm -e htop"
+command firefox		firefox 
+command "prism"		prismlauncher
+
+# colors
+color activeborder	"#52a5a5"
+color inactiveborder	"#7ed2d2"
+color menubg		"#eaffe8"
+color menufg		"#397a35"
+color selfont		"#eaffe8"

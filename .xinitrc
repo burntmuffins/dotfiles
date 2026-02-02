@@ -1,13 +1,21 @@
+##
+##    (\(\	welcome to my
+##   j". ..	.xinitrc!
+##   (  . .)
+##   |   ° ¡
+##   ¿     ;
+##   c?".UJ
+##
 
-# Load our configuration from the .Xresources file
-xrdb -merge ~/.Xresources
+# load our bdf fonts from ~/.fonts/
+xset +fp $HOME/.fonts/
+xset fp rehash
 
-# Change the cursor when hovering the desktop to a pointer
-xsetroot -cursor_name left_ptr
+# load our configuration from .Xresources
+xrdb ~/.Xresources
 
-# Start the "widgets"
-xclock -strftime "  %a %b %e %I:%H" &
-xload &
+# set our background color
+xsetroot -solid gray30 &
 
-# Now start CTWM
-exec ctwm -W
+# lastly, start our wm/de along with dbus
+exec dbus-launch --exit-with-session cwm
