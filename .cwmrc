@@ -15,14 +15,17 @@ borderwidth 4
 sticky yes
 
 # menu applications
-command xterm		xterm
-command htop		"xterm -e htop"
-command firefox		firefox 
-command supertuxkart	supertuxkart
+command " xterm"		xterm
+command " htop"			"xterm -e htop"
+command " firefox"		firefox 
+command " supertuxkart "	supertuxkart
+
+# ignore the specified application
+ignore oclock
 
 # colors
-color activeborder	"#52a5a5"
-color inactiveborder	"#7ed2d2"
+color activeborder	"#55aaaa"
+color inactiveborder	"#9eefef"
 color menubg		"#eaffe8"
-color menufg		"#397a35"
+color menufg		"#458a45"
 color selfont		"#eaffe8"

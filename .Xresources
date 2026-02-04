@@ -9,6 +9,18 @@
 xterm*font: -bolkhov-vga-medium-r-normal-*-17-120-100-100-c-0-iso10646-1
 xterm*geometry: 69x34
 xterm*ScrollBar: true
+xterm*pointerColor: white
+xterm*pointerColorBackground: black
+xterm*pointerShape: left_ptr
+xterm*cursorBar: true
+
+! oclock
+Clock*geometry: 70x70+0+0
+Clock*Background: lightcyan
+Clock*BorderColor: #000055
+Clock*hour: #000055
+Clock*jewel: #0000ff
+Clock*minute: #0000ba
 
 ! all x11 apps scrollbar
 *Scrollbar.thickness: 13
