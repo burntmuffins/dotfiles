@@ -15,11 +15,15 @@ xset fp rehash
 xrdb ~/.Xresources
 
 # set our wallpaper
-#xsetroot -solid gray30 &
-feh --no-fehbg --bg-scale ~/Pictures/vr2exg.jpg
+xsetroot -solid gray30 &
+#feh --no-fehbg --bg-scale ~/Pictures/vr2exg.jpg
+
+# launch pipewire so that we'll have audio
+pipewire &
 
 # adds a clock widget to your screen
 oclock &
 
 # lastly, start our wm/de along with dbus
-exec dbus-launch --exit-with-session cwm
+#exec dbus-launch --exit-with-session cwm
+exec dbus-run-session -- cwm

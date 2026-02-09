@@ -17,8 +17,9 @@ sticky yes
 # menu applications
 command " xterm"		xterm
 command " htop"			"xterm -e htop"
+command " alsamixer"		"xterm -e alsamixer"
 command " firefox"		firefox 
-command " supertuxkart "	supertuxkart
+command " prismlauncher "	prismlauncher
 
 # ignore the specified application
 ignore oclock
