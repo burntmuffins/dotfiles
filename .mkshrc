@@ -1,9 +1,0 @@
-alias ls='ls --color=auto'
-PS1='term% '
-
-# aliases
-## takes a screenshot and put the screenshots into ~/Pictures
-alias sniff="scrot -p -d 2 ~/Pictures/%b%d-%H:%M:%S.png ; echo 'done!'"
-
-## make startx quieter by redirecting it's output to ~/.xorg.log
-alias startx="echo 'starting X...' ; startx -- -keeptty >~/.xorg.log 2>&1"
