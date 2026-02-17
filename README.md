@@ -1,5 +1,5 @@
-# My rice for CWM based on plan9's rio
-<img width="1280" height="800" alt="2026-02-02-092242_1280x800_scrot" src="https://github.com/user-attachments/assets/5f446b95-2e6f-4cfa-a585-50cc12731889" />
+# My rice for CWM inspired by plan9's rio
+<img width="1280" height="800" alt="Feb17-18:53:01" src="https://github.com/user-attachments/assets/dae58977-b896-4abb-9a66-cff7c8004519" />
 
 ## Stuff used
 - cursor theme -- https://xn--1xa.duncano.de/files/xcursor-plan9-0.2.tar.xz <br>
