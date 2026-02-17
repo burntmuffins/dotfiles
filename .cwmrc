@@ -7,26 +7,39 @@
 ##   c?".UJ
 ##
 
-# the font
-fontname "sans-serif:pixelsize=14:bold"
+## the font
+fontname "sans-serif:pixelsize=14:regular"
 
-# windows' stuffs
-borderwidth 4
+## windows' stuffs
+borderwidth 7
 sticky yes
 
-# menu applications
-command " xterm"		xterm
-command " htop"			"xterm -e htop"
-command " alsamixer"		"xterm -e alsamixer"
-command " firefox"		firefox 
-command " prismlauncher "	prismlauncher
+## menu applications
+command "  term"	xterm
+command "  htop"	"xterm -e htop"
+command "  mixer"	"xterm -e alsamixer"
+command "  web"		firefox 
+command "  pingus"	pingus
+command "  prism"	prismlauncher
 
-# ignore the specified application
+## ignore the specified application
 ignore oclock
 
-# colors
-color activeborder	"#55aaaa"
-color inactiveborder	"#9eefef"
+## colors
+#color activeborder	"#cd8b62"
+#color inactiveborder	"#eed7a1"
+#color menubg		"#f7efd2"
+#color menufg		"#cd8b62"
+#color selfont		"#f7efd2"
+
+color activeborder	"#458a45"
+color inactiveborder	"#8acf8a"
 color menubg		"#eaffe8"
 color menufg		"#458a45"
 color selfont		"#eaffe8"
+
+#color activeborder	"#55aaaa"
+#color inactiveborder	"#9eefef"
+#color menubg		"#eaffe8"
+#color menufg		"#458a45"
+#color selfont		"#eaffe8"

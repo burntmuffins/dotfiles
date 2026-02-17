@@ -4,18 +4,23 @@
 !!
 
 ! xterm
-!xterm*font: -misc-fixed-medium-r-normal--14-130-75-75-c-70-iso10646-1
 !xterm*font: -*-lucidatypewriter-bold-*-*-*-12-*-*-*-*-*-iso8859-1
 xterm*font: -bolkhov-vga-medium-r-normal-*-17-120-100-100-c-0-iso10646-1
-xterm*geometry: 69x34
+!xterm*font: -*-fixed-*-r-*-*-16-120-*-*-*-*-iso8859-1
+xterm*scaleHeight: 1.05
+xterm*geometry: 76x38
 xterm*ScrollBar: true
 xterm*pointerColor: white
 xterm*pointerColorBackground: black
 xterm*pointerShape: left_ptr
 xterm*cursorBar: true
 
+! xclock
+xclock*geometry: 100x100+0-13
+xclock*render: false
+
 ! oclock
-Clock*geometry: 70x70+0+0
+Clock*geometry: 130x130+5-5
 Clock*Background: lightcyan
 Clock*BorderColor: #000055
 Clock*hour: #000055
