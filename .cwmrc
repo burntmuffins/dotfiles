@@ -7,31 +7,24 @@
 ##   c?".UJ
 ##
 
-## the font
+## menu font ##
 fontname "sans-serif:pixelsize=14:regular"
+#fontname "VGA:pixelsize=14:Regular"
 
-## windows' stuffs
+## windows' stuffs ##
 borderwidth 7
 sticky yes
 
-## menu applications
-command "  term"	xterm
+## menu applications ##
+command "  term"	"xterm -T term"
 command "  htop"	"xterm -e htop"
 command "  mixer"	"xterm -e alsamixer"
+command "  gimp"	gimp
 command "  web"		firefox 
 command "  pingus"	pingus
 command "  prism"	prismlauncher
 
-## ignore the specified application
-ignore oclock
-
-## colors
-#color activeborder	"#cd8b62"
-#color inactiveborder	"#eed7a1"
-#color menubg		"#f7efd2"
-#color menufg		"#cd8b62"
-#color selfont		"#f7efd2"
-
+## colors ##
 color activeborder	"#458a45"
 color inactiveborder	"#8acf8a"
 color menubg		"#eaffe8"
@@ -43,3 +36,6 @@ color selfont		"#eaffe8"
 #color menubg		"#eaffe8"
 #color menufg		"#458a45"
 #color selfont		"#eaffe8"
+
+## keybinds
+bind-key CM-Return	"xterm -T term"
