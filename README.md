@@ -2,4 +2,6 @@
 <img width="1280" height="800" alt="green" src="https://github.com/user-attachments/assets/2d4a56af-ce1c-44b6-b164-32def9647a33" />
 
 ## stuffs
-- cursor theme -- https://xn--1xa.duncano.de/files/xcursor-plan9-0.2.tar.xz <br>
+- cursor theme: [plan9 xcursor theme](https://xn--1xa.duncano.de/files/xcursor-plan9-0.2.tar.xz) <br>
+- terminal: [my build of st](https://github.com/burntmuffins/suckmore/) <br>
+- terminal font: [gomono nerd font](https://github.com/ryanoasis/nerd-fonts/releases/download/v3.4.0/Go-Mono.zip)
