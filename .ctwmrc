@@ -1,0 +1,108 @@
+#TitleFont	"-adobe-helvetica-bold-r-normal--*-120-*-*-*-*-*-*"
+#ResizeFont	"-adobe-helvetica-bold-r-normal--*-120-*-*-*-*-*-*"
+#MenuFont	"-adobe-helvetica-bold-r-normal--*-120-*-*-*-*-*-*"
+#IconFont	"-adobe-helvetica-bold-r-normal--*-100-*-*-*-*-*-*"
+#IconManagerFont	"-adobe-helvetica-bold-r-normal--*-100-*-*-*"
+
+TitleFont	"-*-helvetica-bold-r-*-*-14-*-*-*-*-*-iso8859-1"
+ResizeFont	"-*-helvetica-bold-r-*-*-14-*-*-*-*-*-iso8859-1"
+MenuFont	"-*-helvetica-bold-r-*-*-14-*-*-*-*-*-iso8859-1"
+IconFont	"-*-helvetica-bold-r-*-*-14-*-*-*-*-*-iso8859-1"
+IconManagerFont	"-*-helvetica-bold-r-*-*-14-*-*-*-*-*-iso8859-1"
+NoTitle
+NoMenuShadows
+NoOpaqueResize
+RandomPlacement "off"
+BorderWidth 7
+#ShowIconManager
+
+# colors
+Color
+{
+    BorderColor           "#458a45"
+    DefaultBackground     "#ffffea"
+    DefaultForeground     "#458a45"
+    BorderTileBackground  "darkseagreen"
+    BorderTileForeground  "darkseagreen"
+    TitleBackground       "#458a45"
+    TitleForeground       "#ffffea"
+    MenuBackground        "#eaffe8"
+    MenuForeground        "#458a45"
+    MenuTitleBackground   "#458a45"
+    MenuTitleForeground   "#ffffea"
+    IconBackground        "#ffffea"
+    IconForeground        "#458a45"
+    IconBorderColor       "darkseagreen"
+    IconManagerBackground "#ffffea"
+    IconManagerForeground "#458a45"
+#    MapWindowBackground   "DeepSkyBlue1"
+#    MapWindowForeground   "Black"
+}
+
+Cursors
+{
+	Frame       "left_ptr"
+	Title       "left_ptr"
+	Icon        "left_ptr"
+	IconMgr     "left_ptr"
+	Move        "fleur"
+	Resize      "fleur"
+	Menu        "sb_left_arrow"
+	Button      "hand2"
+	Wait        "watch"
+	Select      "dot"
+	Destroy     "pirate"
+}
+
+IconManagerGeometry		"202x300-0+0" 1
+IconManagerDontShow {
+    "WorkSpaceManager"
+}
+
+# functions
+MoveDelta 3
+Function "move-or-lower" { f.move f.deltastop f.lower }
+Function "move-or-raise" { f.move f.deltastop f.raise }
+Function "move-or-iconify" { f.move f.deltastop f.iconify }
+
+# bindings
+Button3 =	: root		: f.menu "menu"
+Button2 =	: root		: f.menu "wmops"
+
+Button1 = m	: window|icon	: f.function "move-or-raise"
+Button2 = m	: window|icon	: f.iconify
+Button3 = m	: window|icon	: f.function "move-or-lower"
+
+Button1 =	: title		: f.function "move-or-raise"
+Button2 =	: title		: f.raiselower
+Button1 = m     : title		: f.movetitlebar
+
+Button1 =	: icon		: f.function "move-or-iconify"
+Button2 =	: icon		: f.iconify
+
+Button1 =	: iconmgr	: f.iconify
+Button2 =	: iconmgr	: f.iconify
+
+Button1 =	: frame		: f.resize
+Button3 =	: frame		: f.move
+Button2 =	: frame		: f.raiselower
+
+# menus
+menu "menu"
+{
+	"new"		!"st &"
+	"web"		!"surf &"
+	"resize"	f.resize
+	"move"		f.move
+	"delete"	f.delete
+	"iconify"	f.iconify
+	"restart"	f.restart
+	"exit"		f.quit
+}
+
+#menu "wmops"
+#{
+#	""		f.nop
+#	"restart"	f.restart
+#	"exit"		f.quit
+#}
