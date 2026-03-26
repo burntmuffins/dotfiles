@@ -9,12 +9,14 @@ ResizeFont	"-*-helvetica-bold-r-*-*-14-*-*-*-*-*-iso8859-1"
 MenuFont	"-*-helvetica-bold-r-*-*-14-*-*-*-*-*-iso8859-1"
 IconFont	"-*-helvetica-bold-r-*-*-14-*-*-*-*-*-iso8859-1"
 IconManagerFont	"-*-helvetica-bold-r-*-*-14-*-*-*-*-*-iso8859-1"
+
 NoTitle
 NoMenuShadows
 NoOpaqueResize
 RandomPlacement "off"
 BorderWidth 7
-#ShowIconManager
+#ShowWorkSpaceManager
+ShowIconManager
 
 # colors
 Color
@@ -26,15 +28,15 @@ Color
     BorderTileForeground  "darkseagreen"
     TitleBackground       "#458a45"
     TitleForeground       "#ffffea"
-    MenuBackground        "#eaffe8"
-    MenuForeground        "#458a45"
+    MenuBackground        "#ffdddd"
+    MenuForeground        "#ba5d5d"
     MenuTitleBackground   "#458a45"
     MenuTitleForeground   "#ffffea"
     IconBackground        "#ffffea"
     IconForeground        "#458a45"
     IconBorderColor       "darkseagreen"
-    IconManagerBackground "#ffffea"
-    IconManagerForeground "#458a45"
+    IconManagerBackground "darkseagreen"
+    IconManagerForeground "#ffffea"
 #    MapWindowBackground   "DeepSkyBlue1"
 #    MapWindowForeground   "Black"
 }
@@ -54,9 +56,18 @@ Cursors
 	Destroy     "pirate"
 }
 
-IconManagerGeometry		"202x300-0+0" 1
+WorkSpaceManagerGeometry	"150x175+0+182" 2
+IconManagerGeometry		"150x175+0+182" 1
 IconManagerDontShow {
-    "WorkSpaceManager"
+	"xclock"
+	"WorkSpaceManager"
+}
+
+
+NoHighlight {
+	"xclock"
+	"WorkSpaceManager"
+	"TWM Icon Manager"
 }
 
 # functions
@@ -91,7 +102,7 @@ Button2 =	: frame		: f.raiselower
 menu "menu"
 {
 	"new"		!"st &"
-	"web"		!"surf &"
+	"surf"		!"surf &"
 	"resize"	f.resize
 	"move"		f.move
 	"delete"	f.delete
